@@ -1,0 +1,38 @@
+#VRML_SIM R2020b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.055264199692875195 0.9934856675064415 0.09965990513534753 4.0885362552465345
+  position -6.971601518634877 2.0279295836089584 -3.8356659860435083
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 3 10
+  appearance Parquetry {
+    type "chequered"
+    textureTransform TextureTransform {
+    }
+  }
+}
+Solid {
+  translation 0 -9.375024640000003 2
+  children [
+    DEF ball Shape {
+      geometry Cone {
+        bottomRadius 0.05
+        height 0.1
+      }
+    }
+  ]
+  boundingObject Shape {
+  }
+  physics Physics {
+    density -1
+    mass 100
+  }
+  linearVelocity 0 -16.637759999999993 0
+}
