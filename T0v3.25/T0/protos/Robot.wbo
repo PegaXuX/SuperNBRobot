@@ -1,0 +1,106 @@
+#VRML_OBJ R2021b utf8
+Robot {
+  translation -0.12 0.00999932 0.2
+  rotation 3.3905113482557537e-09 -0.707108281185553 0.70710528118436 3.14159
+  children [
+    ROBODYNO_PRO {
+      translation -1.7128127804966198e-09 0.03999994492078823 -0.07995040067198828
+      rotation -0.7071067811860067 0.7071067811842041 -2.019712594176317e-06 -3.141587694779664
+      motor_id "M1"
+      position 6.43749020767742e-06
+      slot [
+        ROBODYNO_PRO {
+          translation 0.015 1.5779e-09 0.03
+          rotation -2.39745e-09 1 -1.20631e-07 1.5708
+          motor_id "M2"
+          position -1.0055235456928502e-07
+          slot [
+            ROBODYNO_PRO {
+              translation -0.145 -7.96077e-08 -0.025
+              rotation 1 0 0 3.14159
+              motor_id "M3"
+              position 6.4486277548040495e-06
+              slot [
+                ROBODYNO_PRO {
+                  translation -0.145 -5.30718e-08 -0.02
+                  rotation 1 0 0 3.14159
+                  motor_id "M4"
+                  position -3.867454532609634e-06
+                  slot [
+                    ROBODYNO_PRO {
+                      translation -0.015 0 0.03
+                      rotation 0 1 0 -1.5707953071795862
+                      motor_id "M5"
+                      position 9.591226274460635e-08
+                      slot [
+                        ROBODYNO_PRO {
+                          translation 0.015 0 0.03
+                          rotation 0 1 0 1.5708
+                          motor_id "M6"
+                          position 1.0251753123797477e-06
+                          slot [
+                            ROBOT_HAND {
+                              translation 0 3.67321e-08 -0.005
+                              rotation 1 0 0 1.5708
+                              motor_id "hand"
+                              position 1.3874922288615312e-06
+                            }
+                          ]
+                        }
+                        BRACKET {
+                          rotation 0 1 0 3.14159
+                        }
+                      ]
+                    }
+                    BRACKET {
+                      rotation 1 0 0 3.14159
+                    }
+                  ]
+                }
+                BRACKET {
+                  translation -0.115 0 -0.005
+                  rotation 0 1 0 1.5708
+                }
+                BAR_LINK {
+                  translation -0.05 0 0.01
+                }
+              ]
+            }
+            BRACKET {
+              translation -0.115 0 -0.005
+              rotation 0 1 0 1.5708
+            }
+            BAR_LINK {
+              translation -0.05 0 0.01
+            }
+          ]
+        }
+        BRACKET {
+          rotation 1 0 0 3.14159
+        }
+      ]
+    }
+    BRACKET {
+      translation 1.0364699987164272e-08 0.010000000000575979 -0.029999843195444874
+      rotation 0.5773509358554485 0.5773509358554485 -0.5773489358556708 2.094395307179586
+    }
+    BRACKET {
+      translation -5.891740001429113e-08 0.07000000000057602 -0.029999843195444867
+      rotation -0.5773502691896256 -0.5773502691896258 -0.5773502691896258 2.09439
+      name "Bracket(1)"
+    }
+    BAR_LINK {
+      translation 0 2.303901514011386e-11 0.010006236091402618
+    }
+    BAR_LINK {
+      translation 0 0.0800000000115195 0.010006236091402618
+      name "Link(1)"
+    }
+    BAR_LINK {
+      translation 1.4692799998883288e-07 0.040000000011519515 6.23609140261959e-06
+      rotation 0 -7.850447875279517e-17 -1 -1.5707999999999993
+      name "Link(2)"
+    }
+  ]
+  controller "arm_controller"
+}

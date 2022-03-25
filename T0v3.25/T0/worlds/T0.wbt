@@ -1,0 +1,1055 @@
+#VRML_SIM R2021b utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 0.036605012814866875 0.9514226450453267 0.30570414379229094 3.0257897995154672
+  position -0.223478881674601 0.5435776513996448 -0.3412187537040209
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+BasePanel {
+}
+BasePanel {
+  translation 0 0 0.6
+  name "base(1)"
+}
+BasePanel {
+  translation -1 0 0.6
+  name "base(2)"
+}
+BasePanel {
+  translation -1 0 0
+  name "base(3)"
+}
+Robot {
+  translation -1.1397489260468612 0.008634719258915204 0.4199999705615695
+  rotation 0.5739862114732218 -0.5840192334947009 0.5739872506832185 2.084415751450756
+  children [
+    ROBODYNO_PRO {
+      hidden rotation_1 0 0 1 3.669318283310672e-06
+      hidden rotation_3 0 0 -1 1.779425768676838e-06
+      hidden rotation_7 0 0 -1 2.0078450754525877e-06
+      hidden rotation_11 0 0 1 5.599348016993998e-07
+      translation 1.4215157710939508e-06 0.03999687781970285 -0.07989998596132084
+      rotation 0.7071069350952526 -0.7071066272664676 4.004938087669971e-06 3.14158166193672
+      motor_id "M1"
+      position 2.836903682908243
+      slot [
+        ROBODYNO_PRO {
+          translation 0.015 1.5779e-09 0.03
+          rotation -2.39745e-09 1 -1.20631e-07 1.5708
+          motor_id "M2"
+          position 0.13081405114490052
+          slot [
+            ROBODYNO_PRO {
+              translation -0.145 -7.96077e-08 -0.02
+              rotation 1 0 0 3.14159
+              motor_id "M3"
+              position -1.374402942952982
+              slot [
+                ROBODYNO_PRO {
+                  translation -0.145 -5.30718e-08 -0.02
+                  rotation 1 0 0 3.14159
+                  motor_id "M4"
+                  position 0.06557346825952932
+                  slot [
+                    ROBODYNO_PRO {
+                      translation -0.015 0 0.03
+                      rotation 0 1 0 -1.5707953071795862
+                      motor_id "M5"
+                      position -1.5707949752298926
+                      slot [
+                        ROBODYNO_PRO {
+                          translation 0.015 0 0.03
+                          rotation 0 1 0 1.5708
+                          motor_id "M6"
+                          position 2.836901648731829
+                          slot [
+                            ROBOT_HAND {
+                              translation 0 3.67321e-08 -0.005
+                              rotation 1 0 0 1.5708
+                              motor_id "hand"
+                              position 0.02500169970270417
+                            }
+                          ]
+                        }
+                        BRACKET {
+                          rotation 0 1 0 3.14159
+                        }
+                      ]
+                    }
+                    BRACKET {
+                      rotation 1 0 0 3.14159
+                    }
+                  ]
+                }
+                BRACKET {
+                  translation -0.115 0 -0.005
+                  rotation 0 1 0 1.5708
+                }
+                BAR_LINK {
+                  translation -0.05 0 0.01
+                }
+              ]
+            }
+            BRACKET {
+              translation -0.115 0 -0.005
+              rotation 0 1 0 1.5708
+            }
+            BAR_LINK {
+              translation -0.05 0 0.01
+            }
+          ]
+        }
+        BRACKET {
+          rotation 1 0 0 3.14159
+        }
+      ]
+    }
+    BRACKET {
+      translation 1.0365261704503581e-08 0.01000000000032264 -0.029999686390889763
+      rotation -0.5773509358554485 -0.5773509358554486 0.5773489358556707 -2.0943953071795853
+    }
+    BRACKET {
+      translation -5.8916838296951823e-08 0.07000000000032314 -0.02999968639088977
+      rotation 0.5773502691896256 0.5773502691896258 0.5773502691896257 -2.0943900000000006
+      name "Bracket(1)"
+    }
+    BAR_LINK {
+      translation 1.1234568830786884e-11 1.797784143775516e-11 0.010009372182805239
+      rotation 0.7071067811865475 0 -0.7071067811865475 0
+    }
+    BAR_LINK {
+      translation 1.1234513319635653e-11 0.08000000000645824 0.010009372182805227
+      rotation 0.7071067811865475 0 -0.7071067811865475 0
+      name "Link(1)"
+    }
+    BAR_LINK {
+      translation 1.4693923450215252e-07 0.040000000006458425 9.3721828052281e-06
+      rotation -1.5700895750559031e-16 7.850447875279516e-17 1 1.5707999999999993
+      name "Link(2)"
+    }
+  ]
+  name "robot3"
+  boundingObject Transform {
+    translation 0 0.04 0
+    rotation 1 0 0 3.14159
+    children [
+      Box {
+        size 0.1 0.1 0.02
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 2
+  }
+  controller ""
+}
+Robot {
+  translation -1.1397491635251178 0.008634852163025116 1.079999973679524
+  rotation 0.5739849980847982 -0.5840216199377576 0.5739860359092995 2.0844121909639868
+  children [
+    ROBODYNO_PRO {
+      hidden rotation_5 0 0 1 3.3619872946081244e-06
+      hidden rotation_11 0 0 1 5.607273495860947e-07
+      translation 1.4215157710939508e-06 0.03999687781970285 -0.07989998596132084
+      rotation 0.7071069350952526 -0.7071066272664676 4.004938087669971e-06 3.14158166193672
+      motor_id "M1"
+      position 2.83690368314338
+      slot [
+        ROBODYNO_PRO {
+          translation 0.015 1.5779e-09 0.03
+          rotation -2.39745e-09 1 -1.20631e-07 1.5708
+          motor_id "M2"
+          position 0.13081405094852108
+          slot [
+            ROBODYNO_PRO {
+              translation -0.145 -7.96077e-08 -0.02
+              rotation 1 0 0 3.14159
+              motor_id "M3"
+              position -1.3744029428254079
+              slot [
+                ROBODYNO_PRO {
+                  translation -0.145 -5.30718e-08 -0.02
+                  rotation 1 0 0 3.14159
+                  motor_id "M4"
+                  position 0.0655734682206193
+                  slot [
+                    ROBODYNO_PRO {
+                      translation -0.015 0 0.03
+                      rotation 0 1 0 -1.5707953071795862
+                      motor_id "M5"
+                      position -1.5707949752126344
+                      slot [
+                        ROBODYNO_PRO {
+                          translation 0.015 0 0.03
+                          rotation 0 1 0 1.5708
+                          motor_id "M6"
+                          position 2.8369016487340724
+                          slot [
+                            ROBOT_HAND {
+                              translation 0 3.67321e-08 -0.005
+                              rotation 1 0 0 1.5708
+                              motor_id "hand"
+                              position 0.02500169968616094
+                            }
+                          ]
+                        }
+                        BRACKET {
+                          rotation 0 1 0 3.14159
+                        }
+                      ]
+                    }
+                    BRACKET {
+                      rotation 1 0 0 3.14159
+                    }
+                  ]
+                }
+                BRACKET {
+                  translation -0.115 0 -0.005
+                  rotation 0 1 0 1.5708
+                }
+                BAR_LINK {
+                  translation -0.05 0 0.01
+                }
+              ]
+            }
+            BRACKET {
+              translation -0.115 0 -0.005
+              rotation 0 1 0 1.5708
+            }
+            BAR_LINK {
+              translation -0.05 0 0.01
+            }
+          ]
+        }
+        BRACKET {
+          rotation 1 0 0 3.14159
+        }
+      ]
+    }
+    BRACKET {
+      translation 1.0365261704503581e-08 0.01000000000032264 -0.029999686390889763
+      rotation -0.5773509358554485 -0.5773509358554486 0.5773489358556707 -2.0943953071795853
+    }
+    BRACKET {
+      translation -5.8916838296951823e-08 0.07000000000032314 -0.02999968639088977
+      rotation 0.5773502691896256 0.5773502691896258 0.5773502691896257 -2.0943900000000006
+      name "Bracket(1)"
+    }
+    BAR_LINK {
+      translation 1.1234568830786884e-11 1.797784143775516e-11 0.010009372182805239
+      rotation 0.7071067811865475 0 -0.7071067811865475 0
+    }
+    BAR_LINK {
+      translation 1.1234513319635653e-11 0.08000000000645824 0.010009372182805227
+      rotation 0.7071067811865475 0 -0.7071067811865475 0
+      name "Link(1)"
+    }
+    BAR_LINK {
+      translation 1.4693923450215252e-07 0.040000000006458425 9.3721828052281e-06
+      rotation -1.5700895750559031e-16 7.850447875279516e-17 1 1.5707999999999993
+      name "Link(2)"
+    }
+  ]
+  name "robot2"
+  boundingObject Transform {
+    translation 0 0.04 0
+    rotation 1 0 0 3.14159
+    children [
+      Box {
+        size 0.1 0.1 0.02
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 2
+  }
+  controller ""
+}
+Robot {
+  translation -0.43006297797889786 -0.0023084462730819134 0.7399144850382425
+  rotation -0.007719121828020905 -0.9999404445027344 -0.007715089492552498 1.5708595587962992
+  children [
+    LINEAR_MOTOR {
+      translation 0 0.09 0.05
+      rotation 1 0 0 -1.5707953071795862
+      motor_id "M1"
+      position 0.022618357121991183
+      slot [
+        ROBODYNO_PRO {
+          translation 0 0.03 0.015
+          rotation 0 0 1 1.5708
+          motor_id "M2"
+          position 7.0382590690120225e-06
+          slot [
+            BRACKET {
+              translation 0.115 0 -0.005
+              rotation 0 1 0 -1.5707953071795862
+            }
+            ROBODYNO_PRO {
+              translation 0.145 -9.59328e-11 0.0099999
+              rotation 1.32679e-06 4.7949e-09 -1 3.14159
+              motor_id "M3"
+              position 2.9154726765110707e-06
+              slot [
+                ROBODYNO_PRO {
+                  translation -0.145 0 0.01
+                  rotation 1 0 0 3.14159
+                  motor_id "M4"
+                  position -1.6719421053752156e-08
+                  slot [
+                    ROBOT_HAND {
+                      translation 0 3.67321e-08 -0.005
+                      rotation 1 0 0 1.5708
+                      motor_id "hand"
+                      position -7.043043279871902e-07
+                    }
+                  ]
+                }
+                BRACKET {
+                  translation -0.115 0 -0.005
+                  rotation 0 1 0 1.5708
+                }
+                BAR_LINK {
+                  translation -0.05 0 0.01
+                }
+              ]
+            }
+            BAR_LINK {
+              translation 0.05 0 0.01
+            }
+          ]
+        }
+        BRACKET {
+          rotation 0.5773509358554485 -0.5773509358554485 0.5773489358556708 2.0944
+        }
+      ]
+    }
+    BRACKET {
+      translation 0 0.04 0.08
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 5.64351e-08 0.04 0.02
+      rotation 0.70710528118436 0.707108281185553 3.3905113482557537e-09 3.14159
+      name "Bracket(1)"
+    }
+    BAR_LINK {
+      translation 0 0.01 -1.01962e-08
+      rotation 1 0 0 -1.5707953071795862
+    }
+    BAR_LINK {
+      translation 0 0.0099999 0.1
+      rotation 1 0 0 -1.5707953071795862
+      name "Link(1)"
+    }
+    BAR_LINK {
+      translation -3.47791e-08 0.02 0.05
+      rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+      name "Link(2)"
+    }
+  ]
+  name "robot1"
+  boundingObject Group {
+    children [
+      Transform {
+        translation 0 0.02 0.05
+        children [
+          Box {
+            size 0.2 0.04 0.2
+          }
+        ]
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 8
+  }
+  controller ""
+}
+Robot {
+  translation -0.439958 -0.00215413 0.0898237
+  rotation -0.007779481814120082 -0.999939971820923 -0.007715725336965268 1.5630482888795083
+  children [
+    LINEAR_MOTOR {
+      translation 0 0.09 0.05
+      rotation 1 0 0 -1.5707953071795862
+      motor_id "M1"
+      position 0.02271004014679866
+      slot [
+        ROBODYNO_PRO {
+          translation 0 0.03 0.015
+          rotation 0 0 1 1.5708
+          motor_id "M2"
+          position -7.035170320544514e-06
+          slot [
+            BRACKET {
+              translation 0.115 0 -0.005
+              rotation 0 1 0 -1.5707953071795862
+            }
+            ROBODYNO_PRO {
+              translation 0.145 -9.59328e-11 0.0099999
+              rotation 1.32679e-06 4.7949e-09 -1 3.14159
+              motor_id "M3"
+              position -2.915251389637095e-06
+              slot [
+                ROBODYNO_PRO {
+                  translation -0.145 0 0.01
+                  rotation 1 0 0 3.14159
+                  motor_id "M4"
+                  position -1.6777049590302778e-08
+                  slot [
+                    ROBOT_HAND {
+                      translation 0 3.67321e-08 -0.005
+                      rotation 1 0 0 1.5708
+                      motor_id "hand"
+                      position -7.043057879433552e-07
+                    }
+                  ]
+                }
+                BRACKET {
+                  translation -0.115 0 -0.005
+                  rotation 0 1 0 1.5708
+                }
+                BAR_LINK {
+                  translation -0.05 0 0.01
+                }
+              ]
+            }
+            BAR_LINK {
+              translation 0.05 0 0.01
+            }
+          ]
+        }
+        BRACKET {
+          rotation 0.5773509358554485 -0.5773509358554485 0.5773489358556708 2.0944
+        }
+      ]
+    }
+    BRACKET {
+      translation 0 0.04 0.08
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 5.64351e-08 0.04 0.02
+      rotation 0.70710528118436 0.707108281185553 3.3905113482557537e-09 3.14159
+      name "Bracket(1)"
+    }
+    BAR_LINK {
+      translation 0 0.01 -1.01962e-08
+      rotation 1 0 0 -1.5707953071795862
+    }
+    BAR_LINK {
+      translation 0 0.0099999 0.1
+      rotation 1 0 0 -1.5707953071795862
+      name "Link(1)"
+    }
+    BAR_LINK {
+      translation -3.47791e-08 0.02 0.05
+      rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+      name "Link(2)"
+    }
+  ]
+  name "robot0"
+  boundingObject Group {
+    children [
+      Transform {
+        translation 0 0.02 0.05
+        children [
+          Box {
+            size 0.2 0.04 0.2
+          }
+        ]
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 8
+  }
+  controller ""
+}
+ConveyorBelt {
+  translation -0.11 0 0.8
+  rotation 0 1 0 1.5708
+  name "conveyor_belt1"
+}
+ConveyorBelt {
+  translation -1.11 -0.01 0.90001
+  rotation 0 1 0 7.33682e-06
+  name "conveyor_belt2"
+}
+ConveyorBelt {
+  translation -1.11 0 0.610009
+  rotation 0 1 0 7.33682e-06
+  name "conveyor_belt3"
+}
+HorizontalShelf {
+  translation -1.4400000001393418 3.7440246759140594e-07 0.9799999857472257
+  rotation -1 5.135456892225262e-09 -5.116183112148669e-09 1.570800010266062
+}
+VerticalShelf {
+  translation -1.3599999999999999 8.885405203828967e-07 0.5099999631071812
+  rotation -0.5773493930204582 -0.5773481369820602 -0.5773532775539192 2.094388678703558
+}
+Robot {
+  translation 0.02 0 0.43
+  children [
+    ProtobotCamera {
+      translation -0.15 0.315 0.01
+      rotation 0 1 0 -1.5707953071795862
+    }
+    CameraBracket {
+      rotation 0.5773509358554485 0.5773509358554485 0.5773489358556708 -2.094395307179586
+    }
+  ]
+  name "camera1"
+}
+Robot {
+  translation -0.75 0 0.43
+  rotation 0 1 0 1.5708
+  children [
+    ProtobotCamera {
+      translation -0.15 0.315 0.01
+      rotation 0 1 0 -1.5707953071795862
+    }
+    CameraBracket {
+      rotation 0.5773509358554485 0.5773509358554485 0.5773489358556708 -2.094395307179586
+    }
+  ]
+  name "camera3"
+}
+Robot {
+  translation -0.73 0 1.02
+  rotation 0 1 0 -1.5707953071795862
+  children [
+    ProtobotCamera {
+      translation -0.15 0.315 0.01
+      rotation 0 1 0 -1.5707953071795862
+    }
+    CameraBracket {
+      rotation 0.5773509358554485 0.5773509358554485 0.5773489358556708 -2.094395307179586
+    }
+  ]
+  name "camera2"
+}
+Solid {
+  translation -0.26 0.07 0.240276
+  rotation -0.9999999999999999 1.413877401185549e-10 1.46641544751685e-11 3.6918068362247875e-06
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 0 0
+        }
+      }
+      geometry Box {
+        size 0.025 0.04 0.025
+      }
+    }
+  ]
+  name "red cuboid 01"
+  boundingObject Box {
+    size 0.025 0.04 0.025
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.3 0.07 0.24
+  rotation -1 5.353355219399618e-10 3.8926155775155565e-11 3.6917477143847696e-06
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 0 0
+        }
+      }
+      geometry Box {
+        size 0.025 0.04 0.025
+      }
+    }
+  ]
+  name "red cuboid 02"
+  boundingObject Box {
+    size 0.025 0.04 0.025
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.34 0.07 0.240276
+  rotation -1 3.238919323538234e-11 3.879238602042411e-11 3.6918068359927276e-06
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 1
+        }
+      }
+      geometry Box {
+        size 0.025 0.04 0.025
+      }
+    }
+  ]
+  name "blue cuboid 01"
+  boundingObject Box {
+    size 0.025 0.04 0.025
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.38 0.07 0.24
+  rotation -1 6.164330070826072e-10 2.5950833317116203e-11 3.6917477146961296e-06
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 1
+        }
+      }
+      geometry Box {
+        size 0.025 0.04 0.025
+      }
+    }
+  ]
+  name "blue cuboid 02"
+  boundingObject Box {
+    size 0.025 0.04 0.025
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.26 0.0499994 0.180276
+  rotation -1 -5.2211828559951995e-11 -3.772327226144499e-12 6.204918246474813e-06
+  children [
+    Transform {
+      translation 0 0.02 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0
+            }
+          }
+          geometry Cylinder {
+            height 0.028
+            radius 0.008
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.037 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.003 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+  ]
+  boundingObject Transform {
+    translation 0 0.02 0
+    children [
+      Box {
+        size 0.025 0.04 0.025
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.3 0.05 0.18
+  rotation -1 8.76145348245975e-11 -6.494332549165091e-12 3.6879643802174694e-06
+  children [
+    Transform {
+      translation 0 0.02 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0
+            }
+          }
+          geometry Cylinder {
+            height 0.028
+            radius 0.008
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.037 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.003 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 1 0 0
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(1)"
+  boundingObject Transform {
+    translation 0 0.02 0
+    children [
+      Box {
+        size 0.025 0.04 0.025
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.34 0.05 0.18
+  rotation -1 1.5838631021449022e-10 -1.2988666969784769e-11 3.6879643805527814e-06
+  children [
+    Transform {
+      translation 0 0.02 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.028
+            radius 0.008
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.037 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.003 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(2)"
+  boundingObject Transform {
+    translation 0 0.02 0
+    children [
+      Box {
+        size 0.025 0.04 0.025
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.38 0.0499993 0.180276
+  rotation -1 4.9977261049762876e-11 -1.76030742066413e-11 6.2049182465028614e-06
+  children [
+    Transform {
+      translation 0 0.02 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.028
+            radius 0.008
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.037 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+    Transform {
+      translation 0 0.003 0
+      children [
+        Shape {
+          appearance Appearance {
+            material Material {
+              diffuseColor 0 0 1
+            }
+          }
+          geometry Cylinder {
+            height 0.006
+            radius 0.0125
+          }
+        }
+      ]
+    }
+  ]
+  name "solid(3)"
+  boundingObject Transform {
+    translation 0 0.02 0
+    children [
+      Box {
+        size 0.025 0.04 0.025
+      }
+    ]
+  }
+  physics Physics {
+    density -1
+    mass 0.1
+  }
+}
+Solid {
+  translation -0.26 0 0.21
+  children [
+    BAR_LINK {
+      translation 0 0.05 0
+      rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+    }
+    BRACKET {
+      translation 0 0.02 0.07
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 1.1287e-07 0.02 -0.07
+      rotation 0.70710528118436 0.707108281185553 3.3905113482557537e-09 3.14159
+      name "Bracket(1)"
+    }
+  ]
+  name "platform"
+  boundingObject Transform {
+    translation 0 0.025 0
+    children [
+      Box {
+        size 0.03 0.05 0.14
+      }
+    ]
+  }
+  physics Physics {
+  }
+  locked TRUE
+}
+Solid {
+  translation -0.29 0 0.21
+  children [
+    BAR_LINK {
+      translation 0 0.05 0
+      rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+    }
+    BRACKET {
+      translation 0 0.02 0.07
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 1.1287e-07 0.02 -0.07
+      rotation 0.70710528118436 0.707108281185553 3.3905113482557537e-09 3.14159
+      name "Bracket(1)"
+    }
+  ]
+  name "platform(1)"
+  boundingObject Transform {
+    translation 0 0.025 0
+    children [
+      Box {
+        size 0.03 0.05 0.14
+      }
+    ]
+  }
+  physics Physics {
+  }
+  locked TRUE
+}
+Solid {
+  translation -0.32 0 0.21
+  children [
+    BAR_LINK {
+      translation 0 0.05 0
+      rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+    }
+    BRACKET {
+      translation 0 0.02 0.07
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 1.1287e-07 0.02 -0.07
+      rotation 0.70710528118436 0.707108281185553 3.3905113482557537e-09 3.14159
+      name "Bracket(1)"
+    }
+  ]
+  name "platform(2)"
+  boundingObject Transform {
+    translation 0 0.025 0
+    children [
+      Box {
+        size 0.03 0.05 0.14
+      }
+    ]
+  }
+  physics Physics {
+  }
+  locked TRUE
+}
+Solid {
+  translation -0.35 0 0.21
+  children [
+    BAR_LINK {
+      translation 0 0.05 0
+      rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+    }
+    BRACKET {
+      translation 0 0.02 0.07
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 1.1287e-07 0.02 -0.07
+      rotation 0.70710528118436 0.707108281185553 3.3905113482557537e-09 3.14159
+      name "Bracket(1)"
+    }
+  ]
+  name "platform(3)"
+  boundingObject Transform {
+    translation 0 0.025 0
+    children [
+      Box {
+        size 0.03 0.05 0.14
+      }
+    ]
+  }
+  physics Physics {
+  }
+  locked TRUE
+}
+Solid {
+  translation -0.38 0 0.21
+  children [
+    BAR_LINK {
+      translation 0 0.05 0
+      rotation 0.577349935856137 0.577349935856137 0.5773509358560258 -2.094395307179586
+    }
+    BRACKET {
+      translation 0 0.02 0.07
+      rotation 0 0 1 1.5708
+    }
+    BRACKET {
+      translation 1.1287e-07 0.02 -0.07
+      rotation 0.70710528118436 0.707108281185553 3.3905113482557537e-09 3.14159
+      name "Bracket(1)"
+    }
+  ]
+  name "platform(4)"
+  boundingObject Transform {
+    translation 0 0.025 0
+    children [
+      Box {
+        size 0.03 0.05 0.14
+      }
+    ]
+  }
+  physics Physics {
+  }
+  locked TRUE
+}
